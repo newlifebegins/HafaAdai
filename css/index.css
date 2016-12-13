@@ -23,7 +23,7 @@ input,button,select,textarea{outline:none}/*取消聚焦*/
 .pub-top{background: #1a699d;}
 #top.pub-top .search .select .select-shadow{background-color: #1a699d;}
 .ha-bg{min-height: 3442px;min-width: 1172px;background: url(../images/bg.png) no-repeat center;}
-#top{position: relative;}
+#top{position: relative;width: 100%;min-width: 1172px;}
 #top h1{text-align: center;line-height: 180px;}
 #top .logo{vertical-align: middle;}
 #top .search{position: absolute;top: 30px;right: 100px;line-height: 48px;}
@@ -35,7 +35,7 @@ input,button,select,textarea{outline:none}/*取消聚焦*/
 #top .search form input[type="text"]{width: 80%;background: transparent;color: #fff;float: left;line-height: 30px;text-indent: 5px;}
 #top .search form input[type="submit"]{float: right;width: 18%;background: transparent url(../images/search.png) no-repeat center;text-indent: -9999px;line-height: 26px;border-left: 1px solid #fff;margin-top: 2px;cursor: pointer;}
 
-#nav{width: 100%;line-height: 55px;background: #015992;height: 55px;}
+#nav{width: 100%;min-width: 1172px;line-height: 55px;background: #015992;height: 55px;}
 #nav ul {padding: 0 162.875px;box-sizing: border-box;}
 #nav ul li { float: left; line-height: 55px; position: relative;text-align: center; }
 #nav ul li:nth-of-type(2n+1){width: 105px;}

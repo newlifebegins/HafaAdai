@@ -1,5 +1,5 @@
 .hr{background-color: #fff;height: 25px;border-top: 1px dashed #ccc;margin-top: 25px;}
-.banner{margin-top: 7px;}
+.banner{margin-top: 7px;width: 100%;min-width: 1172px;}
 .banner .swiper-pagination{height: 1px;background: #f6af00;bottom: 86px;z-index: 1;}
 .banner .swiper-pagination span{position: absolute;left: 50%;bottom: -18px;width: 36px;height: 36px;background-color: #003249;background-repeat: no-repeat;background-position: center;border-radius: 50%;border: 1px solid #f6af00;opacity: 1;}
 .banner .swiper-pagination span:before{position: absolute;top: -28px;left: -23px;width: 80px;color: #fff;font-size: 16px;}
@@ -27,8 +27,15 @@
 .module .swiper-container-vertical > .swiper-pagination-bullets .swiper-pagination-bullet.swiper-pagination-bullet-active{border: 3px solid #fff;}
 .festival{background-color: #fdefcc;}
 .festival .slide{background-color: #f6af00;}
-.festival .slide ul{border-left: 1px dashed #fff;color: #fff;margin: 68px 0 0 70px;}
-.festival .slide ul li{position: relative;padding-left: 25px;}
-.festival .slide ul li:before{content: '';width: 8px;height: 8px;background-color: transparent;border: 3px solid #fff;position: absolute;left: -7px;top: 0;border-radius: 50%;}
+.festival .slide ul{border-left: 1px dashed #fff;color: #fff;margin: 68px 0 0 70px;position: relative;}
+.festival .slide ul:before{content: '';width: 2px;height: 10px;background: #f6af00;position: absolute;left: -1px;top: 0;}
+.festival .slide ul:after{content: '';width: 2px;height: 32px;background: #f6af00;position: absolute;left: -1px;bottom: 0;}
+.festival .slide ul li{position: relative;padding-left: 25px;margin-top: 25px;cursor: pointer;}
+.festival .slide ul li:before{content: '';width: 8px;height: 8px;background-color: transparent;border: 3px solid #fff;position: absolute;left: -7px;top: 10px;border-radius: 50%;}
+.festival .slide ul h6{font-size: 16px;font-weight: normal;}
+.festival .slide ul h6 span{font-size: 28px;}
+.festival .slide ul p{font-size: 14px;}
+.festival .slide ul li.active{color: #000;}
+.festival .slide ul li.active:before{border-width: 6px;left: -10px;z-index: 99;}
 .activity{background-color: #ccf1fc;}
 .travel{background-color: #ffc0a9;}

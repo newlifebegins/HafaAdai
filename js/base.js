@@ -133,10 +133,8 @@ $(document).ready(function(){
 	});
 
 	// 活动页轮播插件
-	var swiper = new Swiper('.banner .swiper-container', {
+	var swiper = new Swiper('.activity-container', {
 	    pagination: '.swiper-pagination',
-	    nextButton: '.swiper-button-next',
-	    prevButton: '.swiper-button-prev',
 	    slidesPerView: 1,
 	    autoplay: 4000,
 	    paginationClickable: true,
@@ -145,11 +143,26 @@ $(document).ready(function(){
 	});
 
 	// 当地节日
-	var swiper = new Swiper('.festival .swiper-container', {
-	    pagination: '.swiper-pagination',
+	var swiper = new Swiper('.festival-container', {
+	    pagination: '.festival-pagination',
 	    autoplay: 4000,
+	    effect: 'fade',
 	    paginationClickable: true,
-	    loop: true,
-	    direction: 'vertical'
+	    spaceBetween: 30,
+	    // loop: true,
+	    direction: 'vertical',
+	    onSlideChangeEnd: function(swiper){
+	          // alert(swiper.activeIndex); //切换结束时，告诉我现在是第几个slide
+	          $(".festival .slide").find("li").eq(swiper.activeIndex).addClass("active").siblings("li").removeClass("active");
+	        }
+	});
+
+	$(".festival .slide").find("li").on("click",function(){
+		$(this).addClass("active").siblings("li").removeClass("active");
+		var index = $(this).index();
+		$(".festival-pagination").find("span").eq(index).trigger("click");
+		// $(".festival-pagination").find("span").eq(index).addClass("swiper-pagination-bullet-active").siblings("span").removeClass("swiper-pagination-bullet-active");
+		// $(".festival").find(".swiper-slide").eq(index).addClass("swiper-slide-active").siblings(".swiper-slide").removeClass("swiper-slide-active");
+
 	});
 })
