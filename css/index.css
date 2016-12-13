@@ -20,6 +20,8 @@ input,button,select,textarea{outline:none}/*取消聚焦*/
 
 .container{width: 1172px;margin: 0 auto;}
 
+.pub-top{background: #1a699d;}
+#top.pub-top .search .select .select-shadow{background-color: #1a699d;}
 .ha-bg{min-height: 3442px;min-width: 1172px;background: url(../images/bg.png) no-repeat center;}
 #top{position: relative;}
 #top h1{text-align: center;line-height: 180px;}
@@ -90,7 +92,7 @@ input,button,select,textarea{outline:none}/*取消聚焦*/
 .content .activity h5 i{font-style: normal;font-size: 12px;position: relative;top: -3px;}
 .rotate-bg{width: 1156px;height: 306px;margin: 0 auto;background: #dcdcdc;padding-top: 10px;position: relative;}
 
-#footer{width: 100%;background: #fff;padding: 8px 0 276px;}
+#footer{width: 100%;min-width: 1172px;background: #fff;padding: 8px 0 276px;}
 #footer .worker-box{border-top: 1px dashed #ccc;padding: 33px 0 20px;}
 #footer .worker{width: 800px;margin: 0 auto;position: relative;}
 #footer .worker .box{width: 606px;height: 50px;margin: 0 auto;overflow: hidden;position: relative;}
@@ -100,13 +102,13 @@ input,button,select,textarea{outline:none}/*取消聚焦*/
 #footer .worker .box li:first-child{margin-left: 0;}
 #footer .worker .prev-btn{width: 12px;height: 20px;background: url(../images/prev.png);position: absolute;left: 0;top: 50%;margin-top: -10px;}
 #footer .worker .next-btn{width: 12px;height: 20px;background: url(../images/next.png);position: absolute;right: 0;top: 50%;margin-top: -10px;}
-#footer .list{width: 1300px;margin: 0 auto;background: #f5f5f5;padding: 5px 0 0;}
+#footer .list{width: 80%;margin: 0 auto;background: #f5f5f5;padding: 5px 0 0;}
 #footer .list h5{font-size: 22px;color: #000;font-weight: bold;text-align: center;line-height: 38px;margin: 10px 0;}
-#footer .list ul{width: 1200px;border-top: 1px dashed #ccc;margin: 0 auto;padding: 10px 0 28px;}
-#footer .list ul li{width: 400px;float: left;}
+#footer .list ul{width: 90%;border-top: 1px dashed #ccc;margin: 0 auto;padding: 10px 0 28px;}
+#footer .list ul li{width: 30%;float: left;}
 /*#footer .list ul li:first-child{padding-right: 70px;}*/
 /*#footer .list ul li:last-child{padding-left: 70px;}*/
-#footer .list ul li:nth-of-type(2){width: 398px;border-left: 1px dashed #ccc;border-right: 1px dashed #ccc;}
+#footer .list ul li:nth-of-type(2){width: 30%;border-left: 1px dashed #ccc;border-right: 1px dashed #ccc;}
 #footer .list ul li h6{text-align: center;font-size: 14px;color: #3e3a39;line-height: 22px;padding-top: 10px;}
 #footer p{text-align: center;font-size: 12px;color: #3e3a39;line-height: 22px;}
 #footer p.link{margin-top: 10px;}
