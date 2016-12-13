@@ -1,0 +1,34 @@
+.hr{background-color: #fff;height: 25px;border-top: 1px dashed #ccc;margin-top: 25px;}
+.banner{margin-top: 7px;}
+.banner .swiper-pagination{height: 1px;background: #f6af00;bottom: 86px;z-index: 1;}
+.banner .swiper-pagination span{position: absolute;left: 50%;bottom: -18px;width: 36px;height: 36px;background-color: #003249;background-repeat: no-repeat;background-position: center;border-radius: 50%;border: 1px solid #f6af00;opacity: 1;}
+.banner .swiper-pagination span:before{position: absolute;top: -28px;left: -23px;width: 80px;color: #fff;font-size: 16px;}
+.banner .swiper-pagination span:nth-of-type(1){margin-left: -256px;background-image: url(../images/activity/banner-btn1-1.png);}
+.banner .swiper-pagination span:nth-of-type(1):before{content: '当地节日';}
+.banner .swiper-pagination span:nth-of-type(2){margin-left: -18px;background-image: url(../images/activity/banner-btn2-1.png);}
+.banner .swiper-pagination span:nth-of-type(2):before{content: '特色活动';}
+.banner .swiper-pagination span:nth-of-type(3){margin-left: 220px;background-image: url(../images/activity/banner-btn3-1.png);}
+.banner .swiper-pagination span:nth-of-type(3):before{content: '玩转海陆空';}
+.banner .swiper-pagination span.swiper-pagination-bullet-active{background-color: #f6af00;}
+.banner .swiper-pagination span.swiper-pagination-bullet-active:before{color: #f6af00;}
+.banner .swiper-pagination span.swiper-pagination-bullet-active:after{content: '';position: absolute;top: 16px;left: -23px;width: 80px;height: 4px;background-color: #f6af00;z-index: -1;}
+
+.module{width: 100%;;height: 828px;min-width: 1172px;overflow: hidden;position: relative;}
+.module .container{height: 100%;overflow: hidden;position: relative;}
+.module .container .swiper-container{width: 100%;height: 100%;}
+.module .slide{width: 267px;height: 100%;position: absolute;left: 0;top: 0;bottom: 0;z-index: 99999;padding: 64px 20px;box-sizing: border-box;}
+.module .slide h5{width: 46px;height: 46px;background: #fff url(../images/activity/banner-btn1-2.png) no-repeat center;border-radius: 50%;margin: 0 auto;}
+.module .slide h1{font-size: 34px;color: #fff;text-align: center;font-weight: normal;margin: 12px 0 5px;}
+.module .slide h3{font-size: 27px;color: #fff;text-align: center;font-weight: normal;}
+.module .slide .line{width: 182px;height: 1px;margin: 0 auto;position: relative;background-color: #fff;margin-top: 25px;}
+.module .slide .line:before{content: '';width: 44px;height: 4px;background-color: #fff;position: absolute;left: 0;top: -2px;}
+.module .swiper-container-vertical > .swiper-pagination-bullets{right: 17px;bottom: 36px;top: initial;text-align: center;}
+.module .swiper-container-vertical > .swiper-pagination-bullets .swiper-pagination-bullet{background-color: #23293f;border: 1px solid #fde689;opacity: 1;margin: 6px auto;}
+.module .swiper-container-vertical > .swiper-pagination-bullets .swiper-pagination-bullet.swiper-pagination-bullet-active{border: 3px solid #fff;}
+.festival{background-color: #fdefcc;}
+.festival .slide{background-color: #f6af00;}
+.festival .slide ul{border-left: 1px dashed #fff;color: #fff;margin: 68px 0 0 70px;}
+.festival .slide ul li{position: relative;padding-left: 25px;}
+.festival .slide ul li:before{content: '';width: 8px;height: 8px;background-color: transparent;border: 3px solid #fff;position: absolute;left: -7px;top: 0;border-radius: 50%;}
+.activity{background-color: #ccf1fc;}
+.travel{background-color: #ffc0a9;}

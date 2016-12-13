@@ -120,7 +120,7 @@ $(document).ready(function(){
 	    $(".comment dl").find("dd").eq(index).show().siblings("dd").hide();
 	});
 
-	// 轮播插件
+	// 首页轮播插件
 	var swiper = new Swiper('.go .swiper-container', {
 	    pagination: '.swiper-pagination',
 	    nextButton: '.swiper-button-next',
@@ -130,5 +130,26 @@ $(document).ready(function(){
 	    paginationClickable: true,
 	    spaceBetween: 30,
 	    loop: true
+	});
+
+	// 活动页轮播插件
+	var swiper = new Swiper('.banner .swiper-container', {
+	    pagination: '.swiper-pagination',
+	    nextButton: '.swiper-button-next',
+	    prevButton: '.swiper-button-prev',
+	    slidesPerView: 1,
+	    autoplay: 4000,
+	    paginationClickable: true,
+	    spaceBetween: 30,
+	    loop: true
+	});
+
+	// 当地节日
+	var swiper = new Swiper('.festival .swiper-container', {
+	    pagination: '.swiper-pagination',
+	    autoplay: 4000,
+	    paginationClickable: true,
+	    loop: true,
+	    direction: 'vertical'
 	});
 })
