@@ -161,8 +161,50 @@ $(document).ready(function(){
 		$(this).addClass("active").siblings("li").removeClass("active");
 		var index = $(this).index();
 		$(".festival-pagination").find("span").eq(index).trigger("click");
-		// $(".festival-pagination").find("span").eq(index).addClass("swiper-pagination-bullet-active").siblings("span").removeClass("swiper-pagination-bullet-active");
-		// $(".festival").find(".swiper-slide").eq(index).addClass("swiper-slide-active").siblings(".swiper-slide").removeClass("swiper-slide-active");
+
+	});
+
+	// 特色活动
+	var swiper = new Swiper('.activitys-container', {
+	    pagination: '.activitys-pagination',
+	    autoplay: 4000,
+	    effect: 'fade',
+	    paginationClickable: true,
+	    spaceBetween: 30,
+	    // loop: true,
+	    direction: 'vertical',
+	    onSlideChangeEnd: function(swiper){
+	          // alert(swiper.activeIndex); //切换结束时，告诉我现在是第几个slide
+	          $(".activitys .slide").find("li").eq(swiper.activeIndex).addClass("active").siblings("li").removeClass("active");
+	        }
+	});
+
+	$(".activitys .slide").find("li").on("click",function(){
+		$(this).addClass("active").siblings("li").removeClass("active");
+		var index = $(this).index();
+		$(".activitys-pagination").find("span").eq(index).trigger("click");
+
+	});
+
+	// 玩转海陆空
+	var swiper = new Swiper('.travel-container', {
+	    pagination: '.travel-pagination',
+	    autoplay: 4000,
+	    effect: 'fade',
+	    paginationClickable: true,
+	    spaceBetween: 30,
+	    // loop: true,
+	    direction: 'vertical',
+	    onSlideChangeEnd: function(swiper){
+	          // alert(swiper.activeIndex); //切换结束时，告诉我现在是第几个slide
+	          $(".travel .slide").find("li").eq(swiper.activeIndex).addClass("active").siblings("li").removeClass("active");
+	        }
+	});
+
+	$(".travel .slide li").find("dt").on("click",function(){
+		$(this).parents("li").addClass("active").siblings("li").removeClass("active");
+		var index = $(this).parents("li").index();
+		$(".travel-pagination").find("span").eq(index).trigger("click");
 
 	});
 })

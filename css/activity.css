@@ -27,15 +27,82 @@
 .module .swiper-container-vertical > .swiper-pagination-bullets .swiper-pagination-bullet.swiper-pagination-bullet-active{border: 3px solid #fff;}
 .festival{background-color: #fdefcc;}
 .festival .slide{background-color: #f6af00;}
-.festival .slide ul{border-left: 1px dashed #fff;color: #fff;margin: 68px 0 0 70px;position: relative;}
+.festival .slide ul{border-left: 1px dashed #fff;color: #fff;margin: 68px 0 0 50px;position: relative;}
 .festival .slide ul:before{content: '';width: 2px;height: 10px;background: #f6af00;position: absolute;left: -1px;top: 0;}
 .festival .slide ul:after{content: '';width: 2px;height: 32px;background: #f6af00;position: absolute;left: -1px;bottom: 0;}
 .festival .slide ul li{position: relative;padding-left: 25px;margin-top: 25px;cursor: pointer;}
 .festival .slide ul li:before{content: '';width: 8px;height: 8px;background-color: transparent;border: 3px solid #fff;position: absolute;left: -7px;top: 10px;border-radius: 50%;}
 .festival .slide ul h6{font-size: 16px;font-weight: normal;}
 .festival .slide ul h6 span{font-size: 28px;}
-.festival .slide ul p{font-size: 14px;}
+.festival .slide ul p{font-size: 16px;}
 .festival .slide ul li.active{color: #000;}
 .festival .slide ul li.active:before{border-width: 6px;left: -10px;z-index: 99;}
-.activity{background-color: #ccf1fc;}
-.travel{background-color: #ffc0a9;}
+
+.festival .description{width: 560px;height: 100%;position: absolute;top: 0;left: 305px;}
+.festival .description .star{width: 190px;border-bottom: 1px solid rgba(246,175,0,0.4);margin-top: 50px;}
+.festival .description .star h5{width: 165px;border-bottom: 2px solid #f6af00;font-size: 14px;color: #fff;position: relative;bottom: -1px;padding-bottom: 10px;}
+.festival .description .star h5 span{position: absolute;right: 37px;}
+.festival .description .desc{font-size: 12px;color: #fff;margin-top: 590px;line-height: 17px;}
+.festival .description .btn{font-size: 12px;color: #fff;width: 57px;height: 16px;border-radius: 16px;background-color: #f6af00;text-align: center;line-height: 16px;margin-top: 22px;}
+.activitys{background-color: #ccf1fc;}
+.activitys .slide{background-color: #00b9ef;}
+.activitys .slide ul{border-left: 1px dashed #fff;color: #000;margin: 68px 0 0 50px;position: relative;}
+.activitys .slide ul:before{content: '';width: 2px;height: 10px;background: #00b9ef;position: absolute;left: -1px;top: 0;}
+.activitys .slide ul:after{content: '';width: 2px;height: 32px;background: #00b9ef;position: absolute;left: -1px;bottom: 0;}
+.activitys .slide ul li{position: relative;padding-left: 25px;margin-top: 25px;cursor: pointer;}
+.activitys .slide ul li:before{content: '';width: 8px;height: 8px;background-color: transparent;border: 3px solid #f6af00;position: absolute;left: -7px;top: 10px;border-radius: 50%;}
+.activitys .slide ul h6{font-size: 16px;font-weight: normal;color: #fff;}
+.activitys .slide ul h6 span{font-size: 28px;}
+.activitys .slide ul p{font-size: 16px;}
+.activitys .slide ul li.active{color: #fff;}
+.activitys .slide ul li.active p{color: #fff;font-weight: bold;}
+.activitys .slide ul li.active:before{border-width: 6px;left: -10px;z-index: 99;}
+
+.activitys .description{width: 560px;height: 100%;position: absolute;top: 0;left: 305px;}
+.activitys .description .star{width: 190px;border-bottom: 1px solid rgba(0,185,239,0.4);margin-top: 50px;}
+.activitys .description .star h5{width: 165px;border-bottom: 2px solid #02b4e7;font-size: 14px;color: #fff;position: relative;bottom: -1px;padding-bottom: 10px;}
+.activitys .description .star h5 span{position: absolute;right: 37px;}
+.activitys .description .desc{font-size: 12px;color: #fff;margin-top: 590px;line-height: 17px;}
+.activitys .description .btn{font-size: 12px;color: #fff;width: 57px;height: 16px;border-radius: 16px;background-color: #f6af00;text-align: center;line-height: 16px;margin-top: 22px;}
+.travel{background-color: #ffc0a9;height: 990px;}
+.travel .swiper-slide{margin-left: 267px;background-color: #fff;}
+.travel .swiper-slide.er a{display: block;width: 446px;height: 100%;float: left;position: relative;margin: 0 0 0 10px;}
+.travel .swiper-slide.san a{display: block;width: 446px;height: 608px;float: left;position: relative;margin: 0 0 10px 10px;}
+.travel .swiper-slide.san a:last-child{width: 100%;height: 376px;margin-bottom: 0;}
+.travel .swiper-slide.si a{display: block;width: 446px;height: 495px;float: left;position: relative;margin: 0 0 10px 10px;}
+.travel .swiper-slide.si a:nth-last-of-type(1),.travel .swiper-slide.si a:nth-last-of-type(2){margin-bottom: 0;}
+.travel .swiper-slide a img{width: 100%;height: 100%;}
+.travel .slide{background-color: #ff2d00;padding-left: 0;padding-right: 0;}
+.travel .slide ul{color: #000;margin: 68px 0 0 0px;position: relative;}
+/*.travel .slide ul:before{content: '';width: 2px;height: 10px;background: #00b9ef;position: absolute;left: -1px;top: 0;}*/
+/*.travel .slide ul:after{content: '';width: 2px;height: 32px;background: #00b9ef;position: absolute;left: -1px;bottom: 0;}*/
+.travel .slide ul li{position: relative;}
+.travel .slide ul li:first-child{border-top: 1px solid #666;}
+.travel .slide ul li:before{content: '';height: 100%;border-left: 1px dashed #fff;position: absolute;left: 46px;z-index: 4;}
+.travel .slide ul li:last-child:before{height: 75%;}
+/*.travel .slide ul li:before{content: '';width: 8px;height: 8px;background-color: transparent;border: 3px solid #f6af00;position: absolute;left: -7px;top: 10px;border-radius: 50%;}*/
+.travel .slide ul h6{font-size: 16px;font-weight: normal;color: #fff;}
+.travel .slide ul h6 span{font-size: 28px;}
+.travel .slide ul p{font-size: 16px;}
+.travel .slide ul li.active dt{background-color: #19abd8;}
+/*.travel .slide ul li.active p{color: #fff;font-weight: bold;}*/
+/*.travel .slide ul li.active:before{border-width: 6px;left: -10px;z-index: 99;}*/
+.travel .slide ul dl{padding-bottom: 17px;background-size: cover;position: relative;background-position: center;background-repeat: no-repeat;}
+.travel .slide ul dl.sea{background-image: url(../images/activity/travel-slidebg1.png);}
+.travel .slide ul dl.sky{background-image: url(../images/activity/travel-slidebg2.png);}
+.travel .slide ul dl.land{background-image: url(../images/activity/travel-slidebg3.png);}
+.travel .slide ul dl.sea-land{background-image: url(../images/activity/travel-slidebg4.png);}
+.travel .slide ul li:last-child dl{padding-bottom: 41px;}
+.travel .slide ul li:first-child dl dt:after{content: '';width: 2px;height: 10px;background: inherit;position: absolute;left: 46px;top: 0;z-index: 6;}
+/*.travel .slide ul li:last-child dl:after{content: '';width: 2px;height: 45px;background: inherit;position: absolute;left: 46px;bottom: 0;z-index: 6;}*/
+.travel .slide ul dt{width: 100%;height: 42px;line-height: 42px;background-color: #ff2d00;font-size: 24px;color: #fff;font-weight: 500;margin-bottom: 17px;position: relative;text-indent: 66px;cursor: pointer;}
+.travel .slide ul dt:before{content: '';width: 8px;height: 8px;background-color: transparent;border: 6px solid #fff;position: absolute;left: 40px;top: 10px;border-radius: 50%;margin-left: -3px;z-index: 5;}
+.travel .slide ul dd{font-size: 16px;color: #fff;line-height: 30px;position: relative;text-indent: 66px;cursor: pointer;}
+.travel .slide ul dd:before{content: '';width: 8px;height: 8px;background-color: transparent;border: 3px solid #f6af00;position: absolute;left: 40px;top: 10px;border-radius: 50%;z-index: 5;}
+
+.travel .description{width: 230px;height: 100%;position: absolute;top: 0;left: 20px;}
+.travel .description .star{width: 190px;border-bottom: 1px solid rgba(255,45,0,0.4);margin-top: 50px;}
+.travel .description .star h5{width: 165px;border-bottom: 2px solid #ff2d00;font-size: 14px;color: #fff;position: relative;bottom: -1px;padding-bottom: 10px;}
+.travel .description .star h5 span{position: absolute;right: 37px;}
+.travel .description .desc{font-size: 12px;color: #fff;margin-top: 18px;line-height: 17px;}
+.travel .description .btn{font-size: 12px;color: #fff;width: 57px;height: 16px;border-radius: 16px;background-color: #f6af00;text-align: center;line-height: 16px;position: absolute;bottom: 17px;}
