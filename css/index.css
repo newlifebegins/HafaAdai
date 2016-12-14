@@ -93,7 +93,7 @@ input,button,select,textarea{outline:none}/*取消聚焦*/
 .content .activity h5 i{font-style: normal;font-size: 12px;position: relative;top: -3px;}
 .rotate-bg{width: 1156px;height: 306px;margin: 0 auto;background: #dcdcdc;padding-top: 10px;position: relative;}
 
-#footer{width: 100%;min-width: 1172px;background: #fff;padding: 8px 0 276px;}
+#footer{width: 100%;min-width: 1172px;background: #fff;padding: 8px 0 70px;}
 #footer .worker-box{border-top: 1px dashed #ccc;padding: 33px 0 20px;}
 #footer .worker{width: 800px;margin: 0 auto;position: relative;}
 #footer .worker .box{width: 606px;height: 50px;margin: 0 auto;overflow: hidden;position: relative;}

@@ -207,4 +207,16 @@ $(document).ready(function(){
 		$(".travel-pagination").find("span").eq(index).trigger("click");
 
 	});
+
+
+	// 景点
+	console.log(($(".saiban").offset().top/$('body').height())*$(window).height());
+	// console.log($(window).scrollTop());
+	console.log(document.body.scrollTop);
+	console.log($('.saiban').offset().top);
+	console.log($(window).height());
+	$(".aaa").find("a").on("click",function(){
+		$(window).scrollTop($(".saiban").offset().top);
+		return false;
+	})
 })

@@ -98,6 +98,7 @@
 .travel .slide ul dt{width: 100%;height: 42px;line-height: 42px;background-color: #ff2d00;font-size: 24px;color: #fff;font-weight: 500;margin-bottom: 17px;position: relative;text-indent: 66px;cursor: pointer;}
 .travel .slide ul dt:before{content: '';width: 8px;height: 8px;background-color: transparent;border: 6px solid #fff;position: absolute;left: 40px;top: 10px;border-radius: 50%;margin-left: -3px;z-index: 5;}
 .travel .slide ul dd{font-size: 16px;color: #fff;line-height: 30px;position: relative;text-indent: 66px;cursor: pointer;}
+.travel .slide ul dd a{color: #fff;}
 .travel .slide ul dd:before{content: '';width: 8px;height: 8px;background-color: transparent;border: 3px solid #f6af00;position: absolute;left: 40px;top: 10px;border-radius: 50%;z-index: 5;}
 
 .travel .description{width: 230px;height: 100%;position: absolute;top: 0;left: 20px;}
