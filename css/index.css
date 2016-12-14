@@ -14,7 +14,8 @@ input,button,select,textarea{outline:none}/*取消聚焦*/
 .bog_bg{ background:#f8f9f8;}
 .left{ float:left;}/*左浮动*/
 .right{ float:right;}/*右浮动*/ 
-
+.hr{background-color: #fff;height: 25px;border-top: 1px dashed #ccc;margin-top: 25px;}
+.conwhole{position: relative;left: 50%;margin-left: -960px;}
 .clearfix{ zoom:1; position:relative; overflow:hidden; display:block;}
 .clearfix:after{ content:" "; position:absolute; width:0px; height:0px; clear:both;}
 

@@ -1,4 +1,4 @@
-.hr{background-color: #fff;height: 25px;border-top: 1px dashed #ccc;margin-top: 25px;}
+
 .banner{margin-top: 7px;width: 100%;min-width: 1172px;}
 .banner .swiper-pagination{height: 1px;background: #f6af00;bottom: 86px;z-index: 1;}
 .banner .swiper-pagination span{position: absolute;left: 50%;bottom: -18px;width: 36px;height: 36px;background-color: #003249;background-repeat: no-repeat;background-position: center;border-radius: 50%;border: 1px solid #f6af00;opacity: 1;}
