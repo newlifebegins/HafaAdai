@@ -8,6 +8,7 @@
 .saiban .saibantu a{color: #727171;}
 .saiban .saibantu a h5{font-size: 16px;}
 .saiban .saibantu a span{font-size: 12px;letter-spacing: 1px;}
+.saiban .saibantu a img,.saiban .saibantu a p{display: none;}
 /*.saiban .saibantu a{text-align: right;}*/
 .saiban .saibantu a:nth-of-type(1){position: absolute;left: 609px;top: 35px;text-align: left;}
 .saiban .saibantu a:nth-of-type(2){position: absolute;left: 633px;top: 123px;text-align: left;}
@@ -21,7 +22,7 @@
 .saiban .saibantu a:nth-of-type(10){position: absolute;left: 54px;top: 235px;text-align: right;}
 .saiban .saibantu a:nth-of-type(11){position: absolute;left: 79px;top: 166px;text-align: right;}
 .saiban .saibantu a:nth-of-type(12){position: absolute;left: 278px;top: 94px;text-align: right;}
-.saiban .saibantu a:hover{color: #00b7eb;}
+.saiban .saibantu a:hover,.saiban .saibantu a.active{color: #00b7eb;}
 .saiban .show{width: 363px;height: 482px;position: absolute;bottom: 32px;right: 32px;border: 1px solid #eee;padding: 2px;box-sizing: border-box;}
 .saiban .show .star{width: 175px;border-bottom: 1px solid rgba(0,183,235,0.4);position: absolute;top: 26px;left: 20px;}
 .saiban .show .star h5{width: 165px;border-bottom: 2px solid #00b7eb;font-size: 14px;color: #fff;position: relative;bottom: -1px;padding-bottom: 10px;font-weight: normal;}
@@ -37,6 +38,7 @@
 .tianyu .tianyutu a{color: #727171;}
 .tianyu .tianyutu a h5{font-size: 16px;}
 .tianyu .tianyutu a span{font-size: 12px;letter-spacing: 1px;}
+.tianyu .tianyutu a img,.tianyu .tianyutu a p{display: none;}
 /*.tianyu .tianyutu a{text-align: right;}*/
 .tianyu .tianyutu a:nth-of-type(1){position: absolute;right: 124px;top: 102px;text-align: left;}
 .tianyu .tianyutu a:nth-of-type(2){position: absolute;right: 22px;top: 249px;text-align: left;}
@@ -45,7 +47,7 @@
 .tianyu .tianyutu a:nth-of-type(5){position: absolute;right: 380px;top: 502px;text-align: right;}
 .tianyu .tianyutu a:nth-of-type(6){position: absolute;right: 520px;top: 310px;text-align: right;}
 .tianyu .tianyutu a:nth-of-type(7){position: absolute;right: 400px;top: 131px;text-align: right;}
-.tianyu .tianyutu a:hover{color: #f16e52;}
+.tianyu .tianyutu a:hover,.tianyu .tianyutu a.active{color: #f16e52;}
 .tianyu .show{width: 363px;height: 482px;position: absolute;bottom: 32px;left: 10px;border: 1px solid #eee;padding: 2px;box-sizing: border-box;}
 .tianyu .show .star{width: 175px;border-bottom: 1px solid rgba(241,110,82,0.4);position: absolute;top: 26px;left: 20px;}
 .tianyu .show .star h5{width: 165px;border-bottom: 2px solid #f16e52;font-size: 14px;color: #fff;position: relative;bottom: -1px;padding-bottom: 10px;font-weight: normal;}
@@ -61,6 +63,7 @@
 .luota .luotatu a{color: #727171;}
 .luota .luotatu a h5{font-size: 16px;}
 .luota .luotatu a span{font-size: 12px;letter-spacing: 1px;}
+.luota .luotatu a img,.luota .luotatu a p{display: none;}
 /*.luota .luotatu a{text-align: right;}*/
 .luota .luotatu a:nth-of-type(1){position: absolute;left: 710px;top: 77px;text-align: left;}
 .luota .luotatu a:nth-of-type(2){position: absolute;left: 746px;top: 151px;text-align: left;}
@@ -73,7 +76,7 @@
 .luota .luotatu a:nth-of-type(9){position: absolute;left: 250px;top: 230px;text-align: left;}
 .luota .luotatu a:nth-of-type(10){position: absolute;left: 270px;top: 170px;text-align: left;}
 .luota .luotatu a:nth-of-type(11){position: absolute;left: 280px;top: 83px;text-align: left;}
-.luota .luotatu a:hover{color: #a9cf56;}
+.luota .luotatu a:hover,.luota .luotatu a.active{color: #a9cf56;}
 .luota .show{width: 363px;height: 482px;position: absolute;bottom: 32px;right: 5px;border: 1px solid #eee;padding: 2px;box-sizing: border-box;}
 .luota .show .star{width: 175px;border-bottom: 1px solid rgba(169,207,86,0.4);position: absolute;top: 26px;left: 20px;}
 .luota .show .star h5{width: 165px;border-bottom: 2px solid #a9cf56;font-size: 14px;color: #fff;position: relative;bottom: -1px;padding-bottom: 10px;font-weight: normal;}

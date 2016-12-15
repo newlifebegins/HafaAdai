@@ -210,13 +210,39 @@ $(document).ready(function(){
 
 
 	// 景点
-	console.log(($(".saiban").offset().top/$('body').height())*$(window).height());
-	// console.log($(window).scrollTop());
-	console.log(document.body.scrollTop);
-	console.log($('.saiban').offset().top);
-	console.log($(window).height());
-	$(".aaa").find("a").on("click",function(){
-		$(window).scrollTop($(".saiban").offset().top);
+
+	$(".col-3").find("a").on("click",function(){
+		$("html,body").animate({ scrollTop:$($(this).attr("href")).offset().top + "px"},1000);
 		return false;
 	})
+
+	$(".saibantu").find("a").hover(function(){
+		$(this).addClass("active");
+		$(this).parent().find(".show").find(".desc h1").html($(this).find("h5").html());
+		$(this).parent().find(".show").find(".desc span").html($(this).find("span").html());
+		$(this).parent().find(".show").find(".desc p").html($(this).find("p").html());
+		$(this).parent().find(".show").find("img").attr({"src":$(this).find("img").attr("src")});
+	},function(){
+		$(this).removeClass("active");
+	});
+
+	$(".tianyutu").find("a").hover(function(){
+		$(this).addClass("active");
+		$(this).parent().find(".show").find(".desc h1").html($(this).find("h5").html());
+		$(this).parent().find(".show").find(".desc span").html($(this).find("span").html());
+		$(this).parent().find(".show").find(".desc p").html($(this).find("p").html());
+		$(this).parent().find(".show").find("img").attr({"src":$(this).find("img").attr("src")});
+	},function(){
+		$(this).removeClass("active");
+	});
+
+	$(".luotatu").find("a").hover(function(){
+		$(this).addClass("active");
+		$(this).parent().find(".show").find(".desc h1").html($(this).find("h5").html());
+		$(this).parent().find(".show").find(".desc span").html($(this).find("span").html());
+		$(this).parent().find(".show").find(".desc p").html($(this).find("p").html());
+		$(this).parent().find(".show").find("img").attr({"src":$(this).find("img").attr("src")});
+	},function(){
+		$(this).removeClass("active");
+	});
 })
