@@ -66,11 +66,11 @@
 .activitys .description .btn{font-size: 12px;color: #fff;width: 57px;height: 16px;border-radius: 16px;background-color: #f6af00;text-align: center;line-height: 16px;margin-top: 22px;}
 .travel{background-color: #ffc0a9;height: 990px;}
 .travel .swiper-slide{margin-left: 267px;background-color: #fff;}
-.travel .swiper-slide.er a{display: block;width: 446px;height: 100%;float: left;position: relative;margin: 0 0 0 10px;}
+/*.travel .swiper-slide.er a{display: block;width: 446px;height: 100%;float: left;position: relative;margin: 0 0 0 10px;}
 .travel .swiper-slide.san a{display: block;width: 446px;height: 608px;float: left;position: relative;margin: 0 0 10px 10px;}
 .travel .swiper-slide.san a:last-child{width: 100%;height: 376px;margin-bottom: 0;}
 .travel .swiper-slide.si a{display: block;width: 446px;height: 495px;float: left;position: relative;margin: 0 0 10px 10px;}
-.travel .swiper-slide.si a:nth-last-of-type(1),.travel .swiper-slide.si a:nth-last-of-type(2){margin-bottom: 0;}
+.travel .swiper-slide.si a:nth-last-of-type(1),.travel .swiper-slide.si a:nth-last-of-type(2){margin-bottom: 0;}*/
 .travel .swiper-slide a img{width: 100%;height: 100%;}
 .travel .slide{background-color: #ff2d00;padding-left: 0;padding-right: 0;}
 .travel .slide ul{color: #000;margin: 68px 0 0 0px;position: relative;}
