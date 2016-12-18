@@ -1,88 +1,15 @@
 $(document).ready(function(){
-	// 下拉菜单插件
-	var supnav = document.getElementById("supnav");
+	// 下拉菜单
+	$(".top_menuItemDiv").hide();
+	$(".top_menuItem").hover(function() {
+		$(this).find(".top_menuItemDiv").stop(true, true);
+		$(this).find(".top_menuItemDiv").slideDown();
+		$(this).find(".top_menuItemA").addClass("active")
 
-	var nav = document.getElementById("nav");
-
-	var btns = $("#supnav").find("li:even");
-
-	var subnavs = nav.getElementsByTagName("div");
-
-	var paddingbottom = 20;
-
-	var defaultHeight = 0;
-
-	function drop(obj, ivalue) {
-
-	    var a = obj.offsetHeight;
-
-	    var speed = (ivalue - obj.offsetHeight) / 8;
-
-	    a += Math.floor(speed);
-
-	    obj.style.height = a + "px";
-
-	}
-
-	window.onload = function() {
-
-	    for (var i = 0; i < btns.length; i++) {
-
-	        btns[i].index = i;
-
-	        btns[i].onmouseover = function() {
-
-	            var osubnav = subnavs[this.index];
-
-	            var sublinks = osubnav.getElementsByTagName("a");
-
-	            if (osubnav.firstChild.tagName == undefined) {
-
-	                var itarheight = parseInt(osubnav.childNodes[1].offsetHeight) * sublinks.length + paddingbottom;
-
-	            } else {
-
-	                var itarheight = parseInt(osubnav.firstChild.offsetHeight) * sublinks.length + paddingbottom;
-
-	            }
-
-	            clearInterval(this.itimer);
-
-	            this.itimer = setInterval(function() {
-
-	                drop(osubnav, itarheight);
-
-	            },
-
-	            30);
-
-	        }
-
-	        btns[i].onmouseout = function() {
-
-	            var osubnav = subnavs[this.index];
-
-	            clearInterval(this.itimer);
-
-	            this.itimer = setInterval(function() {
-
-	                drop(osubnav, defaultHeight);
-
-	            },
-
-	            30);
-
-	        }
-
-	    }
-
-	}
-
-	$("#supnav").find(".a").next("div").find("a").hover(function(){
-	    // alert(111);
-	    $(this).parent("div").prev(".a").css({'border-bottom':'7px solid #fccd00'});
-	},function(){
-	    $(this).parent("div").prev(".a").css({'border-bottom':'none'});
+	}, function() {
+		$(this).find(".top_menuItemDiv").stop(true, true);
+		$(this).find(".top_menuItemDiv").slideUp();
+		$(this).find(".top_menuItemA").removeClass("active")
 	});
 
 	// 带左右按钮无缝轮播
