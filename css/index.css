@@ -40,7 +40,7 @@ body{width: 100%;min-width: 1172px;}
 #nav{width: 100%;min-width: 1172px;line-height: 55px;background: #015992;height: 55px;}
 #nav ul {padding: 0 162.875px;box-sizing: border-box;}
 #nav ul li { float: left; line-height: 55px; position: relative;text-align: center; }
-#nav ul li:nth-of-type(2n+1){width: 105px;}
+#nav ul li:nth-of-type(2n+1){width: 104px;}
 #nav ul li:nth-of-type(2n){padding: 0 18px;color: #fff;}
 #nav div { width: 105px; position: absolute; top: 62px; left: 0px; padding-bottom: 0px; float: left; height: 0; overflow: hidden; background-color: #23abf1;z-index: 9999; }
 #nav li .a { text-decoration: none; color: #FFFFFF; line-height: 55px; display: block;font-size: 24px;color: #fff; }
