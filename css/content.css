@@ -1,4 +1,4 @@
-.content-show{width: 100%;min-width: 1172px;background: #ccf1fc;margin: 113px 0 370px;padding-top: 65px;position: relative;}
+.content-show{width: 100%;min-width: 1172px;background: #ccf1fc;margin: 113px 0 0px;padding-top: 65px;position: relative;}
 .content-show .hr{position: absolute;left: 0;margin-top: 10px;}
 .content-show .rotate-bg{background: transparent;}
 .dg-container{width: 1107px;margin: 0 auto;position: relative;}
@@ -24,8 +24,10 @@
 }
 .dg-wrapper a img{display: block;width: 100%;}
 .dg-wrapper a div{line-height: 24px;color: #000;font-size: 12px;width: 1025px;left: -245px;bottom: -300px;display: none;position: absolute;}
-.dg-wrapper a div h6{line-height: 30px;color: #015992;font-size: 18px;margin-bottom: 30px;}
-.dg-wrapper a div p{line-height: 24px;color: #000;font-size: 12px;}
+div.desc{width: 100%;min-width: 1172px;}
+div.desc .container{width: 1020px;margin: 120px auto;}
+div.desc h6{line-height: 30px;color: #015992;font-size: 18px;margin-bottom: 30px;}
+div.desc p{line-height: 24px;color: #000;font-size: 12px;}
 .dg-wrapper a.dg-center div{display: block;}
 /*.dg-container nav{width: 58px;position: absolute;z-index: 1000;bottom: 40px;left: 50%;margin-left: -29px;}*/
 .dg-container nav span{text-indent: -9000px;float: left;cursor:pointer;width: 12px;height: 20px;opacity: 0.8;position: absolute;top: 50%;margin-top: -30px;}
