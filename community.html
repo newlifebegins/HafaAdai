@@ -6,10 +6,12 @@
 	<link rel="stylesheet" href="css/index.css" type="text/css"/>  
 	<link rel="stylesheet" href="css/swiper.css" type="text/css"/>
 	<link rel="stylesheet" href="css/community.css" type="text/css"/>
+	<link rel="stylesheet" href="css/jquery.mCustomScrollbar.css">
 	<script type="text/javascript" src="js/jquery.js"></script>    
 	<script type="text/javascript" src="js/swiper.min.js"></script>    
 	<script type="text/javascript" src="js/posterTvGrid.js"></script>
 	<script type="text/javascript" src="js/base.js"></script>
+	<script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
 </head>
 <body>
 	<div id="top" class="pub-top">
@@ -138,7 +140,7 @@
 		<div class="container">
 			<h1>美食攻略</h1>
 			<p>融合欧洲、亚洲、美洲饮食文化形成的独特全套菜单</p>
-			<div class="foot-list clearfix">
+			<div class="foot-list clearfix horizontal-images" id="content-1">
 				<ul>
 					<li><a href="#"><img src="images/community/list5.jpg" alt=""><div>Hard Rock Café</div></a></li>
 					<li><a href="#"><img src="images/community/list5.jpg" alt=""><div>Hard Rock Café</div></a></li>
@@ -161,14 +163,6 @@
 					<li><a href="#"><img src="images/community/list5.jpg" alt=""><div>Hard Rock Café</div></a></li>
 					<li><a href="#"><img src="images/community/list5.jpg" alt=""><div>Hard Rock Café</div></a></li>
 				</ul>
-			</div>
-			<div class="swiper-container">
-			    <div class="swiper-wrapper">
-			        <div class="swiper-slide">Slide 1</div>
-			        <div class="swiper-slide">Slide 2</div>
-			        <div class="swiper-slide">Slide 3</div>
-			    </div>
-			    <div class="swiper-scrollbar"></div>
 			</div>			
 		</div>
 	</div>
@@ -229,13 +223,29 @@
 	    <div class="app"><img src="images/app.jpg" /></div>
 	    <p>官方微信ID:cometomarinas</p>
 	</div>
-	<script type="text/javascript">
-		var mySwiper = new Swiper('.swiper-container',{
-		scrollbar:'.swiper-scrollbar',
-		scrollbarHide : false,
-		scrollbarDraggable : false ,
-		scrollbarSnapOnRelease : true ,
-		  }); 
+	<script>
+		(function($){
+			$(window).on("load",function(){
+				
+				var amount=Math.max.apply(Math,$("#content-1 li").map(function(){return $(this).outerWidth(true);}).get());
+				
+				$("#content-1").mCustomScrollbar({
+					axis:"x",
+					theme:"3d-thick-dark",
+					advanced:{
+						autoExpandHorizontalScroll:true
+					},
+					scrollButtons:{
+						enable:true,
+						scrollType:"stepped"
+					},
+					keyboard:{scrollType:"stepped"},
+					snapAmount:amount,
+					mouseWheel:{scrollAmount:amount}
+				});
+				
+			});
+		})(jQuery);
 	</script>
 </body>
 </html>
