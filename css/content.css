@@ -1,8 +1,8 @@
-.content-show{width: 100%;min-width: 1172px;background: #ccf1fc;margin: 113px 0 0px;padding-top: 65px;position: relative;}
+.content-show{width: 100%;min-width: 1172px;background: #ccf1fc;margin: 113px 0 0px;padding-top: 65px;position: relative;padding-bottom: 50px;}
 .content-show .hr{position: absolute;left: 0;margin-top: 10px;}
 .content-show .rotate-bg{background: transparent;}
 .dg-container{width: 1107px;margin: 0 auto;position: relative;}
-.dg-wrapper{width: 481px;height: 316px;margin: 0 auto;position: relative;
+.dg-wrapper{width: 842px;height: 435px;margin: 0 auto;position: relative;
 	-webkit-transform-style: preserve-3d;
 	-moz-transform-style: preserve-3d;
 	-o-transform-style: preserve-3d;
@@ -14,7 +14,7 @@
 	-ms-perspective: 1000px;
 	perspective: 1000px;
 }
-.dg-wrapper a{width: 482px;/*height: 316px;*/display: block;position: absolute;left: 0;top: 0;box-shadow: 0px 10px 20px rgba(0,0,0,0.3);}
+.dg-wrapper a{width: 842px;height: 435px;display: block;position: absolute;left: 0;top: 0;box-shadow: 0px 10px 20px rgba(0,0,0,0.3);}
 .dg-wrapper a.dg-transition{
 	-webkit-transition: all 0.5s ease-in-out;
 	-moz-transition: all 0.5s ease-in-out;

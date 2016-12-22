@@ -98,19 +98,19 @@
 			if( this.support3d && this.supportTrans ) {
 			
 				leftCSS 	= {
-					'-webkit-transform'	: 'translateX(-350px) translateZ(-200px)',
-					'-moz-transform'	: 'translateX(-350px) translateZ(-200px)',
-					'-o-transform'		: 'translateX(-350px) translateZ(-200px)',
-					'-ms-transform'		: 'translateX(-350px) translateZ(-200px)',
-					'transform'			: 'translateX(-350px) translateZ(-200px)'
+					'-webkit-transform'	: 'translateX(-180px) translateZ(-200px)',
+					'-moz-transform'	: 'translateX(-180px) translateZ(-200px)',
+					'-o-transform'		: 'translateX(-180px) translateZ(-200px)',
+					'-ms-transform'		: 'translateX(-180px) translateZ(-200px)',
+					'transform'			: 'translateX(-180px) translateZ(-200px)'
 				};
 				
 				rightCSS	= {
-					'-webkit-transform'	: 'translateX(350px) translateZ(-200px)',
-					'-moz-transform'	: 'translateX(350px) translateZ(-200px)',
-					'-o-transform'		: 'translateX(350px) translateZ(-200px)',
-					'-ms-transform'		: 'translateX(350px) translateZ(-200px)',
-					'transform'			: 'translateX(350px) translateZ(-200px)'
+					'-webkit-transform'	: 'translateX(180px) translateZ(-200px)',
+					'-moz-transform'	: 'translateX(180px) translateZ(-200px)',
+					'-o-transform'		: 'translateX(180px) translateZ(-200px)',
+					'-ms-transform'		: 'translateX(180px) translateZ(-200px)',
+					'transform'			: 'translateX(180px) translateZ(-200px)'
 				};
 				
 				leftCSS.opacity		= 1;
@@ -122,19 +122,19 @@
 			else if( this.support2d && this.supportTrans ) {
 				
 				leftCSS 	= {
-					'-webkit-transform'	: 'translate(-350px) scale(0.8)',
-					'-moz-transform'	: 'translate(-350px) scale(0.8)',
-					'-o-transform'		: 'translate(-350px) scale(0.8)',
-					'-ms-transform'		: 'translate(-350px) scale(0.8)',
-					'transform'			: 'translate(-350px) scale(0.8)'
+					'-webkit-transform'	: 'translate(-180px) scale(0.8)',
+					'-moz-transform'	: 'translate(-180px) scale(0.8)',
+					'-o-transform'		: 'translate(-180px) scale(0.8)',
+					'-ms-transform'		: 'translate(-180px) scale(0.8)',
+					'transform'			: 'translate(-180px) scale(0.8)'
 				};
 				
 				rightCSS	= {
-					'-webkit-transform'	: 'translate(350px) scale(0.8)',
-					'-moz-transform'	: 'translate(350px) scale(0.8)',
-					'-o-transform'		: 'translate(350px) scale(0.8)',
-					'-ms-transform'		: 'translate(350px) scale(0.8)',
-					'transform'			: 'translate(350px) scale(0.8)'
+					'-webkit-transform'	: 'translate(180px) scale(0.8)',
+					'-moz-transform'	: 'translate(180px) scale(0.8)',
+					'-o-transform'		: 'translate(180px) scale(0.8)',
+					'-ms-transform'		: 'translate(180px) scale(0.8)',
+					'transform'			: 'translate(180px) scale(0.8)'
 				};
 				
 				currentCSS	= {
@@ -256,22 +256,22 @@
 						break;
 					case 'left':
 						return {
-							'-webkit-transform'	: 'translateX(-350px) translateZ(-200px)',
-							'-moz-transform'	: 'translateX(-350px) translateZ(-200px)',
-							'-o-transform'		: 'translateX(-350px) translateZ(-200px)',
-							'-ms-transform'		: 'translateX(-350px) translateZ(-200px)',
-							'transform'			: 'translateX(-350px) translateZ(-200px)',
+							'-webkit-transform'	: 'translateX(-180px) translateZ(-200px)',
+							'-moz-transform'	: 'translateX(-180px) translateZ(-200px)',
+							'-o-transform'		: 'translateX(-180px) translateZ(-200px)',
+							'-ms-transform'		: 'translateX(-180px) translateZ(-200px)',
+							'transform'			: 'translateX(-180px) translateZ(-200px)',
 							'opacity'			: 1,
 							'visibility'		: 'visible'
 						};
 						break;
 					case 'right':
 						return {
-							'-webkit-transform'	: 'translateX(350px) translateZ(-200px)',
-							'-moz-transform'	: 'translateX(350px) translateZ(-200px)',
-							'-o-transform'		: 'translateX(350px) translateZ(-200px)',
-							'-ms-transform'		: 'translateX(350px) translateZ(-200px)',
-							'transform'			: 'translateX(350px) translateZ(-200px)',
+							'-webkit-transform'	: 'translateX(180px) translateZ(-200px)',
+							'-moz-transform'	: 'translateX(180px) translateZ(-200px)',
+							'-o-transform'		: 'translateX(180px) translateZ(-200px)',
+							'-ms-transform'		: 'translateX(180px) translateZ(-200px)',
+							'transform'			: 'translateX(180px) translateZ(-200px)',
 							'opacity'			: 1,
 							'visibility'		: 'visible'
 						};
@@ -317,22 +317,22 @@
 						break;
 					case 'left':
 						return {
-							'-webkit-transform'	: 'translate(-350px) scale(0.8)',
-							'-moz-transform'	: 'translate(-350px) scale(0.8)',
-							'-o-transform'		: 'translate(-350px) scale(0.8)',
-							'-ms-transform'		: 'translate(-350px) scale(0.8)',
-							'transform'			: 'translate(-350px) scale(0.8)',
+							'-webkit-transform'	: 'translate(-180px) scale(0.8)',
+							'-moz-transform'	: 'translate(-180px) scale(0.8)',
+							'-o-transform'		: 'translate(-180px) scale(0.8)',
+							'-ms-transform'		: 'translate(-180px) scale(0.8)',
+							'transform'			: 'translate(-180px) scale(0.8)',
 							'opacity'			: 1,
 							'visibility'		: 'visible'
 						};
 						break;
 					case 'right':
 						return {
-							'-webkit-transform'	: 'translate(350px) scale(0.8)',
-							'-moz-transform'	: 'translate(350px) scale(0.8)',
-							'-o-transform'		: 'translate(350px) scale(0.8)',
-							'-ms-transform'		: 'translate(350px) scale(0.8)',
-							'transform'			: 'translate(350px) scale(0.8)',
+							'-webkit-transform'	: 'translate(180px) scale(0.8)',
+							'-moz-transform'	: 'translate(180px) scale(0.8)',
+							'-o-transform'		: 'translate(180px) scale(0.8)',
+							'-ms-transform'		: 'translate(180px) scale(0.8)',
+							'transform'			: 'translate(180px) scale(0.8)',
 							'opacity'			: 1,
 							'visibility'		: 'visible'
 						};

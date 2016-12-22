@@ -10,7 +10,9 @@
 .content-news .news-bg .img-list li:nth-of-type(2){float: right;width: 548px;}
 .content-news .news-bg .img-list li a{display: block;border-bottom: 9px solid #015992;}
 .content-news .news-bg .img-list li a img{display: block;width: 548px;height: 366px;}
-.content-news .news-bg .img-list li h1{font-size: 18px;color: #015992;margin: 25px 0 12px;}
+.content-news .news-bg .img-list li h1{font-size: 18px;margin: 25px 0 12px;}
+.content-news .news-bg .img-list li h1 a{color: #015992;border: none;}
+.content-news .news-bg .img-list li h1 a:hover{color: #02395c;border: none;}
 .content-news .news-bg .img-list li p{font-size: 12px;color: #000;line-height: 24px;}
 .content-news .news-bg .list{padding: 60px 0;}
 .content-news .news-bg .list a{font-size: 12px;color: #015992;border-bottom: 1px dashed #595757;line-height: 30px;padding-bottom: 6px;}

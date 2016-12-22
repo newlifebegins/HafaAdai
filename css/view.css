@@ -27,11 +27,11 @@
 .saiban .show .star{width: 175px;border-bottom: 1px solid rgba(0,183,235,0.4);position: absolute;top: 26px;left: 20px;}
 .saiban .show .star h5{width: 165px;border-bottom: 2px solid #00b7eb;font-size: 14px;color: #fff;position: relative;bottom: -1px;padding-bottom: 10px;font-weight: normal;}
 .saiban .show .star h5 span{position: absolute;right: 37px;}
-.saiban .show .desc{width: 325px;height: 180px;background: rgba(0,183,235,0.7);position: absolute;bottom: 20px;left: 19px;padding: 20px 10px 0;box-sizing: border-box;}
+.saiban .show .desc{width: 325px;height: auto;background: rgba(0,183,235,0.7);position: absolute;bottom: 20px;left: 19px;padding: 20px 10px 0;box-sizing: border-box;}
 .saiban .show .desc h1{font-size: 22px;color: #f2bb64;font-weight: normal;}
 .saiban .show .desc span{font-size: 16px;color: #fff;}
 .saiban .show .desc p{font-size: 12px;color: #1e1c1c;margin-top: 15px;}
-.saiban .show .desc a{display: block;width: 68px;height: 21px;border-radius: 3px;border: 1px solid #f2bb64;text-align: center;line-height: 21px;color: #fff;font-size: 12px;position: static;float: right;margin-top: 5px;}
+.saiban .show .desc a{display: block;width: 68px;height: 21px;border-radius: 3px;border: 1px solid #f2bb64;text-align: center;line-height: 21px;color: #fff;font-size: 12px;position: static;float: right;margin-top: 5px;margin-bottom: 10px;}
 .tianyu{width: 100%;min-width: 1172px;background: #fff;}
 .tianyu .title{width: 100%;min-width: 1172px;height: 130px;background: url(../images/view/tianyu-tit.jpg) no-repeat center;}
 .tianyu .tianyutu{background: url(../images/view/tianyutu.jpg) no-repeat right 20px;height: 772px;position: relative;}
@@ -52,11 +52,11 @@
 .tianyu .show .star{width: 175px;border-bottom: 1px solid rgba(241,110,82,0.4);position: absolute;top: 26px;left: 20px;}
 .tianyu .show .star h5{width: 165px;border-bottom: 2px solid #f16e52;font-size: 14px;color: #fff;position: relative;bottom: -1px;padding-bottom: 10px;font-weight: normal;}
 .tianyu .show .star h5 span{position: absolute;right: 37px;}
-.tianyu .show .desc{width: 325px;height: 180px;background: rgba(241,110,82,0.9);position: absolute;bottom: 20px;left: 19px;padding: 20px 10px 0;box-sizing: border-box;}
+.tianyu .show .desc{width: 325px;height: auto;background: rgba(241,110,82,0.9);position: absolute;bottom: 20px;left: 19px;padding: 20px 10px 0;box-sizing: border-box;}
 .tianyu .show .desc h1{font-size: 22px;color: #fff;font-weight: normal;}
 .tianyu .show .desc span{font-size: 16px;color: #fff;}
 .tianyu .show .desc p{font-size: 12px;color: #fff;margin-top: 15px;}
-.tianyu .show .desc a{display: block;width: 68px;height: 21px;border-radius: 3px;border: 1px solid #f2bb64;text-align: center;line-height: 21px;color: #fff;font-size: 12px;position: static;float: right;margin-top: 5px;}
+.tianyu .show .desc a{display: block;width: 68px;height: 21px;border-radius: 3px;border: 1px solid #f2bb64;text-align: center;line-height: 21px;color: #fff;font-size: 12px;position: static;float: right;margin-top: 5px;margin-bottom: 10px;}
 .luota{width: 100%;min-width: 1172px;background: #fff;}
 .luota .title{width: 100%;min-width: 1172px;height: 130px;background: url(../images/view/luota-tit.jpg) no-repeat center;}
 .luota .luotatu{background: url(../images/view/luotatu.jpg) no-repeat left 74px;height: 776px;position: relative;}
@@ -81,19 +81,21 @@
 .luota .show .star{width: 175px;border-bottom: 1px solid rgba(169,207,86,0.4);position: absolute;top: 26px;left: 20px;}
 .luota .show .star h5{width: 165px;border-bottom: 2px solid #a9cf56;font-size: 14px;color: #fff;position: relative;bottom: -1px;padding-bottom: 10px;font-weight: normal;}
 .luota .show .star h5 span{position: absolute;right: 37px;}
-.luota .show .desc{width: 325px;height: 180px;background: rgba(169,207,86,0.9);position: absolute;bottom: 20px;left: 19px;padding: 20px 10px 0;box-sizing: border-box;}
+.luota .show .desc{width: 325px;height: auto;background: rgba(169,207,86,0.9);position: absolute;bottom: 20px;left: 19px;padding: 20px 10px 0;box-sizing: border-box;}
 .luota .show .desc h1{font-size: 22px;color: #fff;font-weight: normal;}
 .luota .show .desc span{font-size: 16px;color: #fff;}
 .luota .show .desc p{font-size: 12px;color: #727171;margin-top: 15px;}
-.luota .show .desc a{display: block;width: 68px;height: 21px;border-radius: 3px;border: 1px solid #f2bb64;text-align: center;line-height: 21px;color: #fff;font-size: 12px;position: static;float: right;margin-top: 5px;}
+.luota .show .desc a{display: block;width: 68px;height: 21px;border-radius: 3px;border: 1px solid #f2bb64;text-align: center;line-height: 21px;color: #fff;font-size: 12px;position: static;float: right;margin-top: 5px;margin-bottom: 10px;}
 .tuijian{width: 100%;min-width: 1172px;background: #fff;}
 .tuijian .title{width: 100%;min-width: 1172px;height: 190px;background: url(../images/view/tuijian-tit.jpg) no-repeat center;}
 .tuijian .list{width: 100%;height: 1162px;background: url(../images/view/tuijian-bg.jpg) no-repeat center;}
 .tuijian .list ul{padding: 64px 46px;}
 .tuijian .list ul li{float: left;width: 317px;height: 470px;background: #fff;margin: 30px 0 0 32px;box-shadow: 0 0 7px 1px rgba(7,0,2,0.42);overflow: hidden;position: relative;border: 2px solid transparent;}
-.tuijian .list li .shadow{width: 100%;height: 340px;background: rgba(0,0,0,0.4);position: absolute;left: 0;top: 0;right: 0;display: none;}
+/*.tuijian .list li .shadow{width: 100%;height: 340px;background: rgba(0,0,0,0.4);position: absolute;left: 0;top: 0;right: 0;display: none;}*/
+.tuijian .list li a.img{display: block;}
+.tuijian .list li:hover .img:after{content: '';width: 100%;height: 340px;background: rgba(0,0,0,0.4);position: absolute;left: 0;top: 0;right: 0;}
 .tuijian .list li:hover{border-color: #ea5048;}
-.tuijian .list li:hover .shadow{display: block;}
+/*.tuijian .list li:hover .shadow{display: block;}*/
 .tuijian .list li img{height: 340px;width: 100%;}
 .tuijian .list li .caption{padding: 0 15px 0 23px;}
 .tuijian .list li .caption .star{float: right;font-size: 14px;color: #fbb002;position: relative;top: -10px;}
