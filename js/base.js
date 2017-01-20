@@ -1,4 +1,14 @@
 $(document).ready(function(){
+	//语言选择
+	$(".select").hover(function(){
+		$(this).find('ul').show();
+	},function(){
+		$(this).find('ul').hide();
+	});
+	$(".select").find("ul li").click(function(){
+		
+		$(this).parents("ul").siblings('span').html($(this).find("em").html());
+	});
 	// 下拉菜单
 	$(".top_menuItemDiv").hide();
 	$(".top_menuItem").hover(function() {
