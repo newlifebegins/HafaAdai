@@ -43,9 +43,9 @@ body{width: 100%;min-width: 1172px;}
 #top .search form input[type="text"]{width: 80%;background: transparent;color: #fff;float: left;line-height: 30px;text-indent: 5px;}
 #top .search form input[type="submit"]{float: right;width: 18%;background: transparent url(../images/search.png) no-repeat center;text-indent: -9999px;line-height: 26px;border-left: 1px solid #fff;margin-top: 2px;cursor: pointer;}
 
-#nav{width: 100%;min-width: 1172px;line-height: 55px;background: #015992;height: 55px;}
+#nav{width: 100%;min-width: 1172px;line-height: 55px;background: #015992;height: 55px;position: relative;}
 #nav ul {padding: 0 162.875px;box-sizing: border-box;}
-#nav ul li { float: left; line-height: 55px; position: relative;text-align: center; }
+#nav ul li { float: left; line-height: 55px; position: relative;text-align: center;z-index: 5 }
 #nav ul li:nth-of-type(2n+1){width: 105px;}
 #nav ul li:nth-of-type(2n){padding: 0 18px;color: #fff;}
 #nav .top_menuItem.choose .top_menuItemA{color: #fccd00;border-bottom: 7px solid #fccd00;}
@@ -55,6 +55,7 @@ body{width: 100%;min-width: 1172px;}
 #nav .top_menuItemDiv a { text-decoration: none; color: #FFFFFF;font-size: 16px; line-height: 28px; display: block;text-align: left;padding-left: 25px; }
 #nav .top_menuItemDiv a:hover { /*background-color: #0C7DBA;*/position: relative;color: #fccd00; }
 #nav .top_menuItemDiv a:hover:before { content: '▶';position: absolute;left: 10px;font-size: 12px;color: #fccd00; }
+#nav .hide-bg{background-color: rgba(1,89,146,0.6);position: absolute;left: 0;width: 100%;height: 150px;top: 55px;z-index: 2}
 
 #banner img{display: block;margin: 344px auto 0;}
 .content{padding: 88px 0 0 0;margin-top: 246px;}
@@ -154,3 +155,17 @@ body{width: 100%;min-width: 1172px;}
 .posterTvGrid .bottomNavButtonON:hover{background:#69aaec;}
 .posterTvGrid .bottomNavLeft{}
 .posterTvGrid .bottomNavRight{}
+.scroll{
+		width:80px;
+		height:80px;
+		background:#64BFAE;
+		color:#fff;
+		line-height:80px;
+		text-align:center;
+		position:fixed;
+		right:30px;
+		bottom:50px;
+		cursor:pointer;
+		font-size:14px;
+		z-index: 9999;
+	}

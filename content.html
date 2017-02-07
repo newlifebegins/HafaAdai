@@ -13,6 +13,23 @@
 	<script type="text/javascript" src="js/base.js"></script>
 </head>
 <body>
+<div class="scroll" id="scroll" style="display: none;">
+		回到顶部
+</div>
+<script type="text/javascript">
+$(function(){
+	showScroll();
+	function showScroll(){
+		$(window).scroll( function() { 
+			var scrollValue=$(window).scrollTop();
+			scrollValue > 100 ? $('div[class=scroll]').fadeIn():$('div[class=scroll]').fadeOut();
+		} );	
+		$('#scroll').click(function(){
+			$("html,body").animate({scrollTop:0},200);	
+		});	
+	}
+})
+</script>
 	<div id="top" class="pub-top">
 	    <h1><img src="images/pub-logo.png" class="logo" /></h1>
 	    <div class="search">
@@ -30,75 +47,60 @@
 	    </div>
 	</div>
 	<div id="nav">
+      <div class="hide-bg"></div>
       <ul id="supnav" class="container">
-        <li class="top_menuItem">
+        <li class="top_menuItem choose">
             <a href="index.html" class="top_menuItemA">首页</a>
         </li>
         <li>○</li>
         <li class="top_menuItem">
             <a href="view.html" class="top_menuItemA">景点</a>
             <div class="top_menuItemDiv"> 
-                <a href="#">导航菜单</a>
-                <a href="#">导航菜单</a>
-                <a href="#">导航菜单</a> 
-                <a href="#">导航菜单</a> 
-                <a href="#">导航菜单</a> 
-                <a href="#">导航菜单</a> 
-                <a href="#">导航菜单</a> 
-                <a href="#">导航菜单</a> 
+                <a href="#">塞班岛</a>
+                <a href="#">天宇岛</a>
+                <a href="#">罗塔岛</a>
+                <a href="#">景点推荐</a>
             </div>
         </li>
         <li>○</li>
-        <li class="top_menuItem choose">
+        <li class="top_menuItem">
             <a href="activity.html" class="top_menuItemA">活动</a>
-            <div class="top_menuItemDiv"> 
-                <a href="#">导航菜单</a> 
-                <a href="#">导航菜单</a>
-                <a href="#">导航菜单</a> 
-                <a href="#">导航菜单</a> 
-                <a href="#">导航菜单</a> 
-                <a href="#">导航菜单</a> 
-                <a href="#">导航菜单</a> 
+            <div class="top_menuItemDiv">
+                <a href="#">当地节日</a>
+                <a href="#">特色活动</a>
+                <a href="#">玩转海陆空</a>
             </div>
         </li>
         <li>○</li>
         <li class="top_menuItem">
-            <a href="#" class="top_menuItemA">出发</a>
+            <a href="mls.html" class="top_menuItemA">马拉松</a>
+            <!-- <div class="top_menuItemDiv"> 
+                <a href="#">导航菜单</a> 
+                <a href="#">导航菜单</a> 
+                <a href="#">导航菜单</a>
+                <a href="#">导航菜单</a>
+                <a href="#">导航菜单</a> 
+                <a href="#">导航菜单</a> 
+                <a href="#">导航菜单</a> 
+                <a href="#">导航菜单</a> 
+                <a href="#">导航菜单</a> 
+            </div> -->
+        </li>
+        <li>○</li>
+        <li class="top_menuItem">
+            <a href="community.html" class="top_menuItemA">社群</a>
             <div class="top_menuItemDiv"> 
-                <a href="#">导航菜单</a> 
-                <a href="#">导航菜单</a> 
-                <a href="#">导航菜单</a>
-                <a href="#">导航菜单</a>
-                <a href="#">导航菜单</a> 
-                <a href="#">导航菜单</a> 
-                <a href="#">导航菜单</a> 
-                <a href="#">导航菜单</a> 
-                <a href="#">导航菜单</a> 
+                <a href="#">当地达人</a>
+                <a href="#">特色美食</a>
+                <a href="#">达人游记</a> 
+                <a href="#">最新消息</a> 
             </div>
         </li>
         <li>○</li>
         <li class="top_menuItem">
-            <a href="#" class="top_menuItemA">社群</a>
+            <a href="news.html" class="top_menuItemA">动态</a>
             <div class="top_menuItemDiv"> 
-                <a href="#">导航菜单</a>
-                <a href="#">导航菜单</a>
-                <a href="#">导航菜单</a> 
-                <a href="#">导航菜单</a>
-                <a href="#">导航菜单</a> 
-                <a href="#">导航菜单</a> 
-                <a href="#">导航菜单</a> 
-                <a href="#">导航菜单</a> 
-                <a href="#">导航菜单</a> 
-            </div>
-        </li>
-        <li>○</li>
-        <li class="top_menuItem">
-            <a href="#" class="top_menuItemA">动态</a>
-            <div class="top_menuItemDiv"> 
-                <a href="#">导航菜单</a> 
-                <a href="#">导航菜单</a>
-                <a href="#">导航菜单</a> 
-                <a href="#">导航菜单</a>
+                <a href="#">最新消息</a>
             </div>
         </li>
       </ul>

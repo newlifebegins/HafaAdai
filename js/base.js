@@ -11,15 +11,20 @@ $(document).ready(function(){
 	});
 	// 下拉菜单
 	$(".top_menuItemDiv").hide();
+	$(".hide-bg").hide();
 	$(".top_menuItem").hover(function() {
 		$(this).find(".top_menuItemDiv").stop(true, true);
 		$(this).find(".top_menuItemDiv").slideDown();
-		$(this).find(".top_menuItemA").addClass("active")
+		$(this).find(".top_menuItemA").addClass("active");
+		$(this).has(".top_menuItemDiv").parents("#nav").find(".hide-bg").slideDown();
 
 	}, function() {
 		$(this).find(".top_menuItemDiv").stop(true, true);
 		$(this).find(".top_menuItemDiv").slideUp();
-		$(this).find(".top_menuItemA").removeClass("active")
+		$(".hide-bg").stop(true,true);
+		$(".hide-bg").slideUp();
+		$(this).find(".top_menuItemA").removeClass("active");
+		$(this).has(".top_menuItemDiv").parents(".nav-bg").css("background-color","transparent")
 	});
 
 	// 带左右按钮无缝轮播
